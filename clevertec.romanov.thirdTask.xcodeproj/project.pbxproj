@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B70B0E182950A0FF0091E52C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B70B0E172950A0FF0091E52C /* SnapKit */; };
+		B782CE80295089600008344D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B782CE7F295089600008344D /* AppDelegate.swift */; };
+		B782CE82295089600008344D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B782CE81295089600008344D /* SceneDelegate.swift */; };
+		B782CE84295089600008344D /* ContactsTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B782CE83295089600008344D /* ContactsTabBarController.swift */; };
+		B782CE89295089610008344D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B782CE88295089610008344D /* Assets.xcassets */; };
+		B782CE8C295089610008344D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B782CE8A295089610008344D /* LaunchScreen.storyboard */; };
+		B7B9061A2950BE750077ECC1 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B906192950BE750077ECC1 /* Contact.swift */; };
+		B7B9061F2950C5DD0077ECC1 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B9061E2950C5DD0077ECC1 /* ContactsViewController.swift */; };
+		B7B906212950C62D0077ECC1 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B906202950C62D0077ECC1 /* FavouritesViewController.swift */; };
+		B7B906242950CD450077ECC1 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B906232950CD450077ECC1 /* ContactCell.swift */; };
+		B7C17ADC2951ACA700FFE645 /* ContactsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C17ADB2951ACA700FFE645 /* ContactsData.swift */; };
+		B7C17ADE2951EE9F00FFE645 /* DetailContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C17ADD2951EE9F00FFE645 /* DetailContactViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B782CE7C295089600008344D /* clevertec.romanov.thirdTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clevertec.romanov.thirdTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B782CE7F295089600008344D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B782CE81295089600008344D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B782CE83295089600008344D /* ContactsTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTabBarController.swift; sourceTree = "<group>"; };
+		B782CE88295089610008344D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B782CE8B295089610008344D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B782CE8D295089610008344D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7B906192950BE750077ECC1 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		B7B9061E2950C5DD0077ECC1 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		B7B906202950C62D0077ECC1 /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		B7B906232950CD450077ECC1 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		B7C17ADB2951ACA700FFE645 /* ContactsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsData.swift; sourceTree = "<group>"; };
+		B7C17ADD2951EE9F00FFE645 /* DetailContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContactViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B782CE79295089600008344D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B70B0E182950A0FF0091E52C /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B782CE73295089600008344D = {
+			isa = PBXGroup;
+			children = (
+				B782CE7E295089600008344D /* clevertec.romanov.thirdTask */,
+				B782CE7D295089600008344D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B782CE7D295089600008344D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B782CE7C295089600008344D /* clevertec.romanov.thirdTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B782CE7E295089600008344D /* clevertec.romanov.thirdTask */ = {
+			isa = PBXGroup;
+			children = (
+				B782CE7F295089600008344D /* AppDelegate.swift */,
+				B782CE81295089600008344D /* SceneDelegate.swift */,
+				B7B906182950BE2A0077ECC1 /* model */,
+				B7B906222950CCEF0077ECC1 /* view */,
+				B7B9061B2950C45A0077ECC1 /* controller */,
+				B782CE88295089610008344D /* Assets.xcassets */,
+				B782CE8A295089610008344D /* LaunchScreen.storyboard */,
+				B782CE8D295089610008344D /* Info.plist */,
+			);
+			path = clevertec.romanov.thirdTask;
+			sourceTree = "<group>";
+		};
+		B7B906182950BE2A0077ECC1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B7B906192950BE750077ECC1 /* Contact.swift */,
+				B7C17ADB2951ACA700FFE645 /* ContactsData.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		B7B9061B2950C45A0077ECC1 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				B782CE83295089600008344D /* ContactsTabBarController.swift */,
+				B7B9061E2950C5DD0077ECC1 /* ContactsViewController.swift */,
+				B7B906202950C62D0077ECC1 /* FavouritesViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		B7B906222950CCEF0077ECC1 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B7B906232950CD450077ECC1 /* ContactCell.swift */,
+				B7C17ADD2951EE9F00FFE645 /* DetailContactViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B782CE7B295089600008344D /* clevertec.romanov.thirdTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B782CE90295089610008344D /* Build configuration list for PBXNativeTarget "clevertec.romanov.thirdTask" */;
+			buildPhases = (
+				B782CE78295089600008344D /* Sources */,
+				B782CE79295089600008344D /* Frameworks */,
+				B782CE7A295089600008344D /* Resources */,
+				B782CE9329509A230008344D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = clevertec.romanov.thirdTask;
+			packageProductDependencies = (
+				B70B0E172950A0FF0091E52C /* SnapKit */,
+			);
+			productName = clevertec.romanov.thirdTask;
+			productReference = B782CE7C295089600008344D /* clevertec.romanov.thirdTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B782CE74295089600008344D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					B782CE7B295089600008344D = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = B782CE77295089600008344D /* Build configuration list for PBXProject "clevertec.romanov.thirdTask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B782CE73295089600008344D;
+			packageReferences = (
+				B70B0E162950A0FF0091E52C /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = B782CE7D295089600008344D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B782CE7B295089600008344D /* clevertec.romanov.thirdTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B782CE7A295089600008344D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B782CE8C295089610008344D /* LaunchScreen.storyboard in Resources */,
+				B782CE89295089610008344D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B782CE9329509A230008344D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\n\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B782CE78295089600008344D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B9061A2950BE750077ECC1 /* Contact.swift in Sources */,
+				B7B9061F2950C5DD0077ECC1 /* ContactsViewController.swift in Sources */,
+				B7B906212950C62D0077ECC1 /* FavouritesViewController.swift in Sources */,
+				B782CE84295089600008344D /* ContactsTabBarController.swift in Sources */,
+				B7C17ADE2951EE9F00FFE645 /* DetailContactViewController.swift in Sources */,
+				B7B906242950CD450077ECC1 /* ContactCell.swift in Sources */,
+				B782CE80295089600008344D /* AppDelegate.swift in Sources */,
+				B782CE82295089600008344D /* SceneDelegate.swift in Sources */,
+				B7C17ADC2951ACA700FFE645 /* ContactsData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B782CE8A295089610008344D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B782CE8B295089610008344D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B782CE8E295089610008344D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B782CE8F295089610008344D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B782CE91295089610008344D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H32SG52M9H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = clevertec.romanov.thirdTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clevertec.romanov.clevertec-romanov-thirdTask";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B782CE92295089610008344D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H32SG52M9H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = clevertec.romanov.thirdTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clevertec.romanov.clevertec-romanov-thirdTask";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B782CE77295089600008344D /* Build configuration list for PBXProject "clevertec.romanov.thirdTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B782CE8E295089610008344D /* Debug */,
+				B782CE8F295089610008344D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B782CE90295089610008344D /* Build configuration list for PBXNativeTarget "clevertec.romanov.thirdTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B782CE91295089610008344D /* Debug */,
+				B782CE92295089610008344D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B70B0E162950A0FF0091E52C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B70B0E172950A0FF0091E52C /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B70B0E162950A0FF0091E52C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B782CE74295089600008344D /* Project object */;
+}
